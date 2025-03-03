@@ -1,7 +1,7 @@
+require("dotenv").config();
 const mongo = require("mongodb");
 const MongoClient = mongo.MongoClient;
-const MONGO_URL =
-  "mongodb+srv://yogeshyadav12112002:Yogesh%401206@yogeshdb.uci2v.mongodb.net/myDatabase?retryWrites=true&w=majority";
+const MONGO_URL = process.env.MONGO_URL;
 let _db;
 const mongoConnect = (callback) => {
   MongoClient.connect(MONGO_URL)

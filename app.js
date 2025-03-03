@@ -3,6 +3,7 @@ const path = require("path");
 
 // External Module
 const express = require("express");
+require("dotenv").config();
 
 //Local Module
 const userRouter = require("./routes/userRouter");
@@ -23,7 +24,7 @@ app.use(express.static(path.join(rootDir, "public")));
 
 app.use(errorcontroller.error);
 
-const PORT = 4003;
+const PORT = process.env.PORT || 4003;
 mongoConnect(() => {
   //phle mongoconnect kro and jb client hmare pass aa jaye tb server start krna
   app.listen(PORT, () => {
