@@ -1,0 +1,83 @@
+.btn-success1 {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #07bc68;
+  border: 1px solid #07bc68;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-success1:hover {
+  background-color: #157347; /* Darker green on hover */
+  border-color: #145c41; /* Adjust border color */
+}
+.btn-success2 {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #e9494e;
+  border: 1px solid #e9494e;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+.btn-success2:hover {
+  background-color: #df1313; /* Darker green on hover */
+  border-color: #df1313; /* Adjust border color */
+}
+.btn-success3 {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #7664ef;
+  border: 1px solid #7664ef;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+.btn-success3:hover {
+  background-color: #292ccc; /* Darker green on hover */
+  border-color: #292ccc; /* Adjust border color */
+}
+.btn-success4 {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #7664ef;
+  border: 1px solid #7664ef;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-success4:hover {
+  background-color: #1a4fee; /* Darker green on hover */
+  border-color: #1a4fee; /* Adjust border color */
+}
+ 
